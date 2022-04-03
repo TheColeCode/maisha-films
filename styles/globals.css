@@ -15,3 +15,16 @@ h6 {
 body {
   font-family: var(--font-secondary);
 }
+
+.footer-nav {
+  display: flex; 
+}
+
+@media only screen and (max-width: 600px) {
+  .large-screen-pipe {
+    display: none;
+  }
+  .footer-nav {
+    display: block;
+  }
+}
