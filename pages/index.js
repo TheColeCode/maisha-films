@@ -17,7 +17,20 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
-        <ul className="w-full">
+        <div>
+          <h3 className="text-3xl lg:text-2xl text-center">Official Trailer</h3>
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/0OcizQfU6Gk"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style={{'margin': '0 auto', 'max-width': '560px', 'min-height': '315px'}}
+          />
+        </div>
+        {/* <ul className="w-full">
           {posts.map((post) => (
             <li
               key={post.filePath}
@@ -44,7 +57,7 @@ export default function Index({ posts, globalData }) {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
