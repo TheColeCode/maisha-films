@@ -25,6 +25,7 @@ export default function Index({ globalData }) {
             <Card
               key={film.title}
               title={film.title}
+              category={film.category}
               releaseDate={film.releaseDate}
               about={film.about}
               trailer={film.trailer}
