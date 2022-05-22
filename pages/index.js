@@ -28,6 +28,7 @@ export default function Index({ globalData }) {
               category={film.category}
               releaseDate={film.releaseDate}
               about={film.about}
+              watchNow={film.watchNow}
               trailer={film.trailer}
               poster={film.poster}
               links={film.links}
