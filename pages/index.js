@@ -29,6 +29,8 @@ export default function Index({ globalData }) {
               releaseDate={film.releaseDate}
               about={film.about}
               watchNow={film.watchNow}
+              watchNow1={film.watchNow1}
+              embed={film.embed}
               trailer={film.trailer}
               poster={film.poster}
               links={film.links}

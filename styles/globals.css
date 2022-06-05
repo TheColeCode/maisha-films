@@ -20,6 +20,37 @@ body {
   display: flex; 
 }
 
+.donate-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 200px;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.donate-modal h1,
+.donate-modal p {
+  margin-bottom: 20px;
+}
+
+.video-in-modal iframe {
+  margin: 0 auto;
+}
+
+.close-button-modal {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.highlighted-link {
+  color: var(--color-primary);
+}
+
 @media only screen and (max-width: 600px) {
   .large-screen-pipe {
     display: none;
