@@ -9,7 +9,7 @@ export default function Card({title, category, releaseDate, about, watchNow, wat
       showModal ? 
       <div className="donate-modal">
         <h1>Thank you for Watching</h1>
-        <p>Kindly donate directly to Children's Hope Home <a href="https://www.childrens-hope-home.org/hoffnungstraeger_donate.html" target="_blank" title="Donate to Children's Hope Home" className="highlighted-link">HERE</a>.</p>
+        <p>Kindly donate directly to Children&rsquo;s Hope Home <a href="https://www.childrens-hope-home.org/hoffnungstraeger_donate.html" target="_blank" title="Donate to Children's Hope Home" rel="noreferrer" className="highlighted-link">HERE</a>.</p>
         <div className="video-in-modal">{embed}</div>
         <button className="close-button-modal" onClick={() => setShowModal(false)}>Close X</button>
       </div> : null
@@ -38,7 +38,7 @@ export default function Card({title, category, releaseDate, about, watchNow, wat
               <ArrowIcon className="mt-0.5" />
             </div>
             <div className="flex mb-2">
-              <button onClick={() => setShowModal(true)} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white'}}>Watch & Donate</button>
+              <button onClick={() => setShowModal(true)} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white'}}>Watch &#38; Donate</button>
               <ArrowIcon className="mt-0.5" />
             </div>
             <div className="flex mb-6">

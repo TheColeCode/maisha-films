@@ -4,7 +4,7 @@ export default function Footer({ copyrightText }) {
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
       </p>
-      <nav style={{'max-width': '600px'}}>
+      <nav style={{'maxWidth': '600px'}}>
         <ul className="footer-nav opacity-60">
           <li className="mr-3">
             <a href="https://maishaphotography.com/" target="_blank" rel="noreferrer" title="Maisha Photography">Maisha Photography</a>
