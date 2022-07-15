@@ -26,7 +26,7 @@ export const films = [
     watchNow: null,
     watchNow1: null,
     embed: null,
-    trailer: null,
+    trailer: 'https://youtu.be/g4Ub2wwgz-s',
     poster: <Poster src='/2-3.jpg' alt="Echoes Poster" title="Echoes Poster" width="200px" height="300px" />,
     links:
       {
