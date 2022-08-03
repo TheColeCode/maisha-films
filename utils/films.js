@@ -22,7 +22,7 @@ export const films = [
     title: 'Echoes from the 19th Century',
     category: 'Documentary',
     releaseDate: 'TBD',
-    about: 'Voices of the most important figures of the 19th century.',
+    about: 'An immersive documentary that brings some of the most important figures of the 19th Century to life.',
     watchNow: null,
     watchNow1: null,
     embed: null,
