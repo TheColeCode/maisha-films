@@ -35,15 +35,15 @@ export default function Card({title, category, releaseDate, about, watchNow, wat
             <p className="uppercase mb-0 font-bold opacity-60" style={{'fontSize': '10pt'}}>{category}</p>
             <p className="uppercase mb-2 font-bold opacity-60" style={{'fontSize': '10pt'}}>Release Date: {releaseDate}</p>
             {watchNow && <div className="flex mb-2">
-              <a href={watchNow} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch on Youtube</a>
+              <a href={watchNow} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch on Tubi</a>
               <ArrowIcon className="mt-0.5" />
             </div>}
             {watchNow1 && <div className="flex mb-2">
-              <a href={watchNow1} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch on Tubi</a>
+              <a href={watchNow1} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch on Plex</a>
               <ArrowIcon className="mt-0.5" />
             </div>}
             {watchNow2 && <div className="flex mb-2">
-              <a href={watchNow2} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch on Plex</a>
+              <a href={watchNow2} title="Watch Now | Finding Hope Home" target="_blank" rel="noreferrer" className="font-bold" style={{'color': 'white', 'fontSize': '10pt'}}>Watch Now</a>
               <ArrowIcon className="mt-0.5" />
             </div>}
             {title === 'Finding Hope Home' && <div className="flex mb-2">
