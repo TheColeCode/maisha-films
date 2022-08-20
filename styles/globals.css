@@ -30,6 +30,7 @@ body {
   padding-top: 100px;
   text-align: center;
   font-size: 16pt;
+  z-index: 9999;
 }
 
 .donate-modal h1 {
@@ -86,9 +87,6 @@ body {
 }
 
 .card-container > li {
-  /* max-width: 550px;
-  min-width: 200px;
-  width: 100%; */
   border-radius: 0.5rem;
 }
 
