@@ -16,11 +16,11 @@ export default function Index({ globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 className="text-1xl lg:text-3xl font-bold m-2 mb-6">
+        <h1 className="text-1xl m-2 mb-6 ml-6">
           {globalData.blogTitle}
         </h1>
 
-        <ul className="w-full">
+        <ul className="w-full card-container">
           {films.map((film) => (
             <Card
               key={film.title}
@@ -30,6 +30,7 @@ export default function Index({ globalData }) {
               about={film.about}
               watchNow={film.watchNow}
               watchNow1={film.watchNow1}
+              watchNow2={film.watchNow2}
               embed={film.embed}
               trailer={film.trailer}
               poster={film.poster}
